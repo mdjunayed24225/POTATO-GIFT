@@ -1,0 +1,28 @@
+🥔 Welcome to Potato Gift! 🥔
+<!-- Main Content -->
+<main class="max-w-2xl mx-auto mt-6 p-4 bg-white shadow-lg rounded-lg">
+    <h2 class="text-2xl font-semibold text-center mb-4">Select, Customize, and Add Your Potato</h2>
+    
+    <!-- Select Potato Type -->
+    <label class="block mb-2 font-medium">Choose Potato Type:</label>
+    <select class="w-full p-2 border rounded">
+        <option>Small - 5 inches, 50 words, 100 Taka</option>
+        <option>Medium - 6 inches, 100 words, 150 Taka</option>
+        <option>Large - 7 inches, 200 words, 200 Taka</option>
+    </select>
+    
+    <!-- Message Input -->
+    <label class="block mt-4 mb-2 font-medium">Type Your Message:</label>
+    <input type="text" placeholder="Write something fun and memorable!" class="w-full p-2 border rounded">
+    
+    <!-- Customization -->
+    <label class="block mt-4 mb-2 font-medium">Select Customization:</label>
+    <select class="w-full p-2 border rounded">
+        <option>Plain</option>
+        <option>Custom Drawing</option>
+        <option>Special Theme</option>
+    </select>
+    
+    <!-- Add to Order Button -->
+    <button class="w-full bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-4 mt-4 rounded">Add to Order</button>
+</main>
