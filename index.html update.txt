@@ -1,0 +1,30 @@
+🥔 Welcome to Potato Gift!
+Send a fun message on a real potato to surprise your friends!
+
+    <div class="mt-6">
+        <h2 class="text-xl font-semibold">Select, Customize, and Add Your Potato</h2>
+        <select class="w-full p-2 border rounded mt-2">
+            <option>Small - 5 inches, 50 words, 100 Taka</option>
+            <option>Medium - 6 inches, 100 words, 150 Taka</option>
+            <option>Large - 7 inches, 200 words, 200 Taka</option>
+        </select>
+        <input type="text" placeholder="Write something fun & memorable!" class="w-full p-2 border rounded mt-2">
+        <button class="bg-yellow-500 text-white px-4 py-2 mt-3 rounded hover:bg-yellow-600">Add to Order</button>
+    </div>
+
+    <div class="mt-6">
+        <h2 class="text-xl font-semibold">Order Your Potato Gift Now!</h2>
+        <input type="text" placeholder="Your Name" class="w-full p-2 border rounded mt-2">
+        <input type="text" placeholder="Recipient's Name" class="w-full p-2 border rounded mt-2">
+        <input type="text" placeholder="Recipient's Address" class="w-full p-2 border rounded mt-2">
+        <input type="email" placeholder="Your Email" class="w-full p-2 border rounded mt-2">
+        <input type="tel" placeholder="Your Phone Number" class="w-full p-2 border rounded mt-2">
+        <button class="bg-green-500 text-white px-4 py-2 mt-3 rounded hover:bg-green-600">Confirm Order</button>
+    </div>
+
+    <div class="mt-6">
+        <h2 class="text-xl font-semibold">Track Your Order</h2>
+        <input type="text" placeholder="Enter Tracking ID" class="w-full p-2 border rounded mt-2">
+        <button class="bg-blue-500 text-white px-4 py-2 mt-3 rounded hover:bg-blue-600">Track Now</button>
+    </div>
+</div>
